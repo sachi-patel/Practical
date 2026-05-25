@@ -1,0 +1,113 @@
+[
+ {
+  "charts": [
+   {
+    "chart_name": "Today's Booking Status",
+    "label": "Today's Booking Status",
+    "parent": "Mini Booking System",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "content": "[{\"id\":\"V03LacrLV3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mini Booking System</span>\",\"col\":12}},{\"id\":\"PtX8DQ92o8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Provider performance Report\",\"col\":3}},{\"id\":\"hofj6WrArr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Booking\",\"col\":3}},{\"id\":\"TqhE_bwp-j\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Provider\",\"col\":3}},{\"id\":\"7L-dOuDP81\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Category\",\"col\":3}},{\"id\":\"JjzrJFBEUn\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Today's Booking Status\",\"col\":12}},{\"id\":\"q6u1SkHhgX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Booking\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": null,
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Mini Booking System",
+  "links": [],
+  "modified": "2026-05-25 17:10:48.765013",
+  "module": null,
+  "name": "Mini Booking System",
+  "number_cards": [
+   {
+    "label": "Today's Booking",
+    "number_card_name": "Today's Booking",
+    "parent": "Mini Booking System",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 39.0,
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "New",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Service Booking",
+    "link_to": "Service Booking",
+    "parent": "Mini Booking System",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Provider performance Report",
+    "link_to": "Provider performance",
+    "parent": "Mini Booking System",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": "Service Provider",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Report",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Service Provider",
+    "link_to": "Service Provider",
+    "parent": "Mini Booking System",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Service Category",
+    "link_to": "Service Category",
+    "parent": "Mini Booking System",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Mini Booking System"
+ }
+]

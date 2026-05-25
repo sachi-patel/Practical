@@ -43,7 +43,7 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
+# doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -236,19 +236,24 @@ doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
 # ]
 
 fixtures = [
+    # {
+    #     "dt": "Custom Field",
+    #     "filters": [
+    #         [
+    #             "name",
+    #             "in",
+    #             [
+    #                 "Sales Invoice Item-custom_price_history"
+    #             ]
+    #         ]
+    #     ]
+    # },
     {
-        "dt": "Custom Field",
+        "dt": "Workspace",
         "filters": [
-            [
-                "name",
-                "in",
-                [
-                    "Sales Invoice Item-custom_price_history"
-                ]
-            ]
+            ["name", "=", "Mini Booking System"]
         ]
-    },
-    
+    }
 ]
 
 # Automatically update python controller files with type annotations for this app.
